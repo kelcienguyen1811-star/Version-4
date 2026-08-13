@@ -1,0 +1,109 @@
+        .about-hero {
+            padding: 5rem 5rem;
+            border-radius: 20px;
+            text-align: center;
+            margin: 3rem;
+            background: #CF6339;
+            color: #efe8dd;
+        } 
+
+        .about-hero h2 {
+            font-size: clamp(1.5rem, 4vw + 1rem, 4rem);
+            margin-bottom: 1rem;
+            margin-top: 0;
+        }
+
+        .about-hero p {
+            font-size: clamp(0.5rem, 1vw + 0.5rem, 1.5rem);
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+
+        .about-border {
+            display: block;
+            width: 100%;
+            height: auto;
+            margin: 0;
+            padding: 0;
+        }
+
+        main {
+            background: #37499B;
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+        }
+
+        .about-row {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 5rem;
+            margin: 3rem auto;
+            flex-wrap: wrap;
+        }
+
+        .who-we-are,
+        .our-goals {
+            border-radius: 70px;
+            background: #efe8dd;
+            color: #2c3e50;
+            width: 80%;
+            min-width: 240px;
+            display: flex;
+            align-items: center;
+            padding: 0;
+            text-align: left;
+            overflow: hidden;
+        }
+
+        .who-we-are-content, .our-goals-content {
+            flex: 1;
+            padding: 2rem 4rem;
+        }
+
+        .who-we-are h3,
+        .our-goals h3 {
+            font-size: clamp(1.5rem, 4vw + 1rem, 3rem);
+            margin: 1rem auto;
+            letter-spacing: -0.05em;
+        }
+
+        .who-we-are p,
+        .our-goals p {
+            font-size: clamp(0.5rem, 1vw + 0.5rem, 1.75rem);
+            margin: 0.5rem auto;
+        }  
+
+        .team-image, .goals-image {
+            display: block;
+            flex: 0 0 45%;
+            width: 45%;
+            max-width: none;
+            height: 320px;
+            margin: 0;
+            object-fit: cover;
+        }
+
+        @media (max-width: 700px) {
+            .who-we-are, .our-goals {
+                display: block;
+            }
+
+            .team-image, .goals-image {
+                width: 100%;
+                height: 240px;
+            }
+
+            .who-we-are-content, .our-goals-content {
+                padding: 1.5rem;
+                text-align: center;
+            }
+
+            .about-hero {
+                padding: 3rem 2rem;
+                margin: 1rem;
+            }
+        }
+
+

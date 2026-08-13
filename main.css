@@ -1,0 +1,148 @@
+        /* Courses and Careers Section */
+        .parent-container {
+            display: flex;
+            gap: 20px;
+            position: relative;
+            overflow: hidden;
+            max-width: 1350px;
+            margin: 0 auto;
+        }
+
+        .courses-section, .careers-section {
+            padding: 5rem 2rem;
+            border-radius: 20px;
+            text-align: center;
+            margin-bottom: 2rem;
+            flex: 1;
+        }
+
+        .courses-section {
+            background: #37499B;
+            color: #efe8dd;
+        }
+
+        .careers-section {
+            background: #CF6339;
+            color: #efe8dd;
+        }
+
+        .courses-section a,
+        .careers-section a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .courses-section a:hover,
+        .careers-section a:hover {
+            color: #3498db;
+        }
+
+        .courses-section h2 {
+            font-size: clamp(1.5rem, 4vw + 1rem, 4rem);
+            margin-bottom: 1rem;
+            margin-top: 0;
+            letter-spacing: -0.05em;
+        }
+
+        .careers-section h2 {
+            font-size: clamp(1.5rem, 4vw + 1rem, 4rem);
+            margin-bottom: 1rem;
+            margin-top: 0;
+            letter-spacing: -0.05em;
+        }
+
+        .courses-section p, .careers-section p {
+            font-size: 1.1rem;
+        }
+
+        .section-icon {
+            display: block;
+            margin: 0.01rem auto 0;
+            max-width: 40%;
+            height: auto;
+        }
+
+        .content-section {
+            margin-bottom: 2rem;
+        }
+
+        .content-section h3 {
+            color: #2c3e50;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 0.5rem;
+        }
+ 
+        .intro-container {
+            position: relative;
+            margin-top: 5rem;
+            margin-bottom: 5rem;
+        }
+        .intro-text {
+            text-align: center;
+            font-size: clamp(3rem, 4vw + 1rem, 5rem);
+            margin-top: 0;
+            margin-bottom: 0;
+            font-weight: 1000;
+            color: #2c3e50;
+        }
+
+        .intro-desc {
+            text-align: center;
+            font-size: clamp(1rem, 2vw, 1.5rem);
+            margin-top: 1rem;
+            margin-bottom: 5rem;
+            color: #2c3e50;
+            font-weight: 505;
+            line-height: 2;
+        }
+
+        /* Decorative swirl image */
+        .decorative-swirl { 
+            top: 40rem;
+            position: absolute;
+            width: 100%;
+            height: 50%;
+            object-fit: cover;
+            z-index: -1;
+            left: 0;
+            right: 0;
+        }
+
+        /* Quiz Section */
+        side {
+            display: block;
+            width: 100%;
+            min-height: 50vh;
+            background-color: #37499B;
+            padding: 1rem 0;
+        }
+        side h3 {
+            text-align: center;
+            font-size: 3rem;
+            color: #efe8dd;
+            margin-top: 4rem;
+            margin-bottom: 1rem;
+        }
+        side p {
+            text-align: center;
+            font-size: 1.25rem;
+            color: #efe8dd;
+            margin-top: 1rem;
+        }
+        .quiz-button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 2rem auto;
+            background: #efe8dd;
+            color: #2c3e50;
+            padding: 1rem 1.5rem;
+            border-radius: 30px;
+            max-width: 150px;
+            width: fit-content;
+        }
+        .quiz-button a {
+            color: inherit;
+            text-decoration: none;
+        }

@@ -1,0 +1,144 @@
+.questionnaire-hero {
+    padding: 5rem 5rem;
+    border-radius: 20px;
+    text-align: center;
+    margin: 3rem;
+    background: #efe8dd;
+    color: #2c3e50;
+} 
+
+.questionnaire-hero h2{
+    font-size: clamp(1.5rem, 4vw + 1rem, 4rem);
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+
+.questionnaire-hero p {
+    font-size: clamp(0.5rem, 1vw + 0.5rem, 1.5rem);
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+/* Container */
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.sticky-element {
+  position: sticky;
+  top: 1rem;
+  background: #efe8dd;
+  color: #2c3e50;
+  padding: 0.75rem 1rem;
+  border-radius: 0.75rem;
+  z-index: 100;
+}
+
+.sticky-element a { 
+  color: #2c3e50;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.quiz-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-bottom: 2rem;
+}
+
+.card {
+  position: sticky;
+  border-radius: 12px;
+}
+
+.card-1 {
+  z-index: 1;
+  top: 100px;
+  background: #37499B;
+}
+.card-2 {
+  z-index: 2; 
+  top: 140px;
+  background: #CF6339;
+}
+.card-3 { 
+  z-index: 3; 
+  top: 180px;
+  background: #37499B;
+}
+.card-4 { 
+  z-index: 4;
+  top: 220px;
+  background: #CF6339;
+}
+.card-5 { 
+  z-index: 4;
+}
+.card-content {
+  padding: 2rem;
+}
+
+.card-content h3 {
+  color: #efe8dd;
+  margin: 0;
+}
+
+.card-content p {
+  color: #efe8dd;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.card-content img {
+  width: 7rem;
+  height: 7rem;
+  display: block;
+  margin: auto;
+  padding-bottom: 1rem;
+}
+
+.answer-row {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.step {
+  font-size: 0.8rem;
+  color: #efe8dd;
+  font-weight: bold;
+}
+
+.quiz-btn {
+  flex: 1;
+  width: auto;
+  padding: 0.75rem 1rem;
+  margin-top: 0;
+  background: #efe8dd;
+  color: #2c3e50;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.complete-quiz-btn {
+  position: relative;
+  margin: 0.5rem auto 0;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 2rem;
+  background: #efe8dd;
+  color: #2c3e50;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3rem;
+}
+
